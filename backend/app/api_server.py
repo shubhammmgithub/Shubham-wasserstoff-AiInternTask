@@ -21,10 +21,10 @@ from werkzeug.utils import secure_filename
 from dotenv import load_dotenv
 from io import StringIO, BytesIO
 
-from .ocr_utils import extract_text_from_file
-from .text_utils import chunk_text
-from .embedder import embed_chunks, build_faiss_index, embed_query
-from .groq_utils import chat_with_groq  # for Groq integration
+from app.ocr_utils import extract_text_from_file
+from app.text_utils import chunk_text
+from app.embedder import embed_chunks, build_faiss_index, embed_query
+from app.groq_utils import chat_with_groq  # for Groq integration
 
 # it will load API key
 load_dotenv()
