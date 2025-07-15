@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: wasserstoff-backend
+    runtime: python
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: python -m app.api_server
+    envVars:
+      - key: GROQ_API_KEY
+        value: ""
+    rootDir: backend
+    autoDeploy: true
+    plan: free
+    region: oregon
