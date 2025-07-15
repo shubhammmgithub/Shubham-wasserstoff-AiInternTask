@@ -29,3 +29,4 @@ def extract_text_from_file(filepath):
 
     except Exception as e:
         return f"❌ Error extracting text: {str(e)}"
+# ✅ Updated for Render deployment

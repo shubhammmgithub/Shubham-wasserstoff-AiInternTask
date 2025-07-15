@@ -16,3 +16,4 @@ class FAISSVectorStore:
         # It will perform a similarity search to find out the relevant data
         distances, indices = self.index.search(np.array([query_vector]).astype("float32"), top_k)
         return [(self.text_chunks[i], distances[0][idx]) for idx, i in enumerate(indices[0])]
+# ✅ Updated for Render deployment

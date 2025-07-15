@@ -20,3 +20,4 @@ def embed_query(query: str):
     embedding = model.encode([query], normalize_embeddings=True)
     return np.array(embedding).astype("float32")
 
+# ✅ Updated for Render deployment

@@ -35,3 +35,4 @@ def chunk_text(text, doc_id="Unknown_Doc", chunk_size=500, overlap=100):
         paragraph_number += 1
 
     return chunks
+# ✅ Updated for Render deployment

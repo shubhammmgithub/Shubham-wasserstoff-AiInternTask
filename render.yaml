@@ -6,8 +6,8 @@ services:
     startCommand: python -m app.api_server
     envVars:
       - key: GROQ_API_KEY
-        value: ""
-    rootDir: backend
+        sync: false  # You’ll set this in Render dashboard
     autoDeploy: true
     plan: free
     region: oregon
+    rootDir: backend

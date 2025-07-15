@@ -24,3 +24,4 @@ def chat_with_groq(prompt: str) -> str:
         return response.choices[0].message.content.strip()
     except Exception as e:
         return f"Groq API error: {str(e)}"
+# ✅ Updated for Render deployment

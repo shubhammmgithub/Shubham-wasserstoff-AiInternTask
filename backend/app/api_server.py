@@ -9,6 +9,7 @@ initailly i started with openai but due to limited search .
 i need to shift to groq.
 
 """
+# ✅ Updated for Render deployment
 
 import os
 import json
