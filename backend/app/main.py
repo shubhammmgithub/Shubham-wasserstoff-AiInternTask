@@ -36,3 +36,6 @@ results = faiss_store.search(query_vector)
 print("\n Top Matches ")
 for match, score in results:
     print(f"→ {match[:100]}... (Score: {score:.2f})")
+
+
+
