@@ -1,0 +1,29 @@
+# --- Web Server & Routing ---
+Flask==3.1.1
+flask-cors
+gunicorn
+
+# --- Embedding & Search ---
+faiss-cpu==1.11.0
+sentence-transformers==5.0.0
+tqdm==4.67.1
+scikit-learn==1.7.0
+regex
+openai
+groq==0.7.0
+transformers==4.53.1
+torch==2.7.1
+
+# --- OCR & Document Parsing ---
+pytesseract==0.3.13
+pdfplumber
+pdfminer.six
+pdf2image
+Pillow==11.3.0
+PyMuPDF
+pymupdf
+python-docx==1.2.0
+
+# --- Utilities ---
+requests==2.32.4
+python-dotenv
